@@ -56,6 +56,11 @@ body {
 }
 
 
+.link:hover, .link:focus,
+.link-current:hover, .link-current:focus {
+    color: var(--accent-color)
+}
+
 .auth-nav a {
     font-weight: 500;
     font-size: 14px;
@@ -143,6 +148,7 @@ body {
 }
 
 .team-name {
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
     color: var(--title-text-color);
@@ -159,8 +165,13 @@ body {
     background-color: #2F303A;
 }
 
+.footer span {
+    color: var(--primery-white-color)
+}
+
 
 .address {
+    font-weight: 400;
     font-style: normal;
     font-size: 14px;
     line-height: 1.71;
